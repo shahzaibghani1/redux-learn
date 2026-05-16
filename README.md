@@ -1,16 +1,183 @@
-# React + Vite
+# 🚀 Redux Toolkit Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and beginner-friendly Todo Application built using:
 
-Currently, two official plugins are available:
+- React
+- Redux Toolkit
+- React Redux
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project demonstrates how Redux Toolkit manages global state in a clean and scalable way while implementing real-world CRUD functionality.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 📸 Preview
 
-## Expanding the ESLint configuration
+Features included in the UI:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Add Todo  
+✅ Update Todo  
+✅ Delete Todo  
+✅ Beautiful Responsive UI  
+✅ Redux Global State Management  
+✅ Tailwind CSS Styling  
+✅ Beginner-Friendly Project Structure  
+
+---
+
+# 📚 What You Will Learn
+
+This project is designed for learning Redux Toolkit practically.
+
+After completing this project, you will understand:
+
+- What Redux Store is
+- What Reducers are
+- What Slices are
+- How Actions work
+- How `useSelector` works
+- How `useDispatch` works
+- How Redux updates UI automatically
+- How global state management works in React
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| React | Frontend Library |
+| Redux Toolkit | State Management |
+| React Redux | Connect React with Redux |
+| Tailwind CSS | Styling |
+| JavaScript | Application Logic |
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+│
+├── app/
+│   └── store.js
+│
+├── features/
+│   └── todo/
+│       └── todoSlice.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+# 🧠 Redux Architecture Used
+
+```text
+User Action
+    ↓
+dispatch(action)
+    ↓
+Reducer Handles Action
+    ↓
+Redux Store Updates
+    ↓
+useSelector Gets Updated State
+    ↓
+UI Re-renders Automatically
+```
+
+---
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/redux-toolkit-todo-app.git
+```
+
+---
+
+## 2️⃣ Move Into Project Folder
+
+```bash
+cd redux-toolkit-todo-app
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+pnpm install
+```
+
+---
+
+## 4️⃣ Install Redux Toolkit
+
+```bash
+pnpm add @reduxjs/toolkit react-redux
+```
+
+---
+
+## 5️⃣ Install Tailwind CSS
+
+```bash
+pnpm add tailwindcss @tailwindcss/vite
+```
+
+---
+
+# ▶️ Run The Project
+
+Start development server:
+
+```bash
+pnpm dev
+```
+
+Now open:
+
+```text
+http://localhost:5173
+```
+
+---
+
+# 📦 Important Packages
+
+## Redux Toolkit
+
+```bash
+pnpm add @reduxjs/toolkit
+```
+
+Official modern Redux solution.
+
+---
+
+## React Redux
+
+```bash
+pnpm add react-redux
+```
+
+Connects Redux with React.
+
+---
+
+# 🧪 Expected Learning Outcome
+
+After this project you should be able to:
+
+✅ Build Redux applications  
+✅ Understand Redux data flow  
+✅ Create reducers and slices  
+✅ Manage global state  
+✅ Connect Redux with React  
+✅ Build scalable frontend applications  
+
+---

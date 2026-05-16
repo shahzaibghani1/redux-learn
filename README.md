@@ -94,7 +94,7 @@ UI Re-renders Automatically
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/redux-toolkit-todo-app.git
+git clone https://github.com/shahzaibghani1/redux-learn.git
 ```
 
 ---
@@ -102,7 +102,7 @@ git clone https://github.com/your-username/redux-toolkit-todo-app.git
 ## 2️⃣ Move Into Project Folder
 
 ```bash
-cd redux-toolkit-todo-app
+cd redux-learn
 ```
 
 ---
